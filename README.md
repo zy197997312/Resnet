@@ -13,5 +13,4 @@ resnet_model 为建立的残差神经网络模型。
     卷积核被按通道分32组，提高计算速度，加法合并
 ------------------------------------------
 resnet_main 为参数以及执行训练。
-    最终输出即为准确率
-    使用环境 为 Anaconda4.2 和 tensorflow 1.1 在window 10系统下执行。
+    使用环境 为 Anaconda4.2 和 tensorflow 1.1 在window 10系统下执行。
