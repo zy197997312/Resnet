@@ -4,16 +4,16 @@ Resnet
 ------------------------------------------
 1 cifar_input为数据导入程序（使用cifar 代替数据量较大的ImageNet 进行训练，但是依然要跑很久）
 ------------------------------------------
-    cifar数据集下载链接<https://www.cs.toronto.edu/~kriz/cifar.html>
+> cifar数据集下载链接<https://www.cs.toronto.edu/~kriz/cifar.html>
 ------------------------------------------
 2 resnet_model 为建立的残差神经网络模型。
 ------------------------------------------
-    3*3的卷积核
-    卷积步长2取代pooling
-    使用了批归一化（batch normalization）
-    取消了全连接层，drop out
-    卷积核被按通道分32组，提高计算速度，加法合并
+> 3*3的卷积核
+> 卷积步长2取代pooling
+> 使用了批归一化（batch normalization）
+> 取消了全连接层，drop out
+> 卷积核被按通道分32组，提高计算速度，加法合并
 ------------------------------------------
 3 resnet_main 为参数以及执行训练。
 ------------------------------------------
-    使用环境为Anaconda4.2 和 TensorFlow 1.1 ，在window系统下运行。
+> 使用环境为Anaconda4.2 和 TensorFlow 1.1 ，在window系统下运行。
